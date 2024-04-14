@@ -13,9 +13,6 @@ fn main() {
                         position: WindowPosition::Automatic,
                         mode: bevy::window::WindowMode::Windowed,
                         present_mode: PresentMode::AutoNoVsync,
-                        // present_mode: PresentMode::AutoVsync,
-                        resolution: (WW as f32, WH as f32).into(),
-                        // title: "Test App".to_string(),
                         ..default()
                     }),
                     ..default()
